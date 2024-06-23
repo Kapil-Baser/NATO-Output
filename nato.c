@@ -107,7 +107,6 @@ void read_file(const char *nato_term[])
 {
     char file_name[64];
     int ch;
-    int len = 0;
     printf("Enter file name: ");
     if (fgets(file_name, 64, stdin) != NULL)
     {
