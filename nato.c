@@ -77,7 +77,7 @@ void read_phrase(const char *nato_term[])
     char phrase[64];
     while (1)
     {
-        printf("Enter a word or a phrase: ");
+        printf("Enter a word or a phrase(press enter again to go back to main menu): ");
         if (fgets(phrase, 64, stdin) != NULL)
         {
             int i = 0;
